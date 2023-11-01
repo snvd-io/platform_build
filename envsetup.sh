@@ -614,7 +614,7 @@ function chooseproduct()
     if [ "x$TARGET_PRODUCT" != x ] ; then
         default_value=$TARGET_PRODUCT
     else
-        default_value=aosp_arm
+        default_value=sdk_phone64_x86_64
     fi
 
     export TARGET_BUILD_APPS=
@@ -776,7 +776,7 @@ function lunch()
         answer=$1
     else
         print_lunch_menu
-        echo "Which would you like? [aosp_cf_x86_64_phone-trunk_staging-eng]"
+        echo "Which would you like? [sdk_phone64_x86_64-ap2a-eng]"
         echo -n "Pick from common choices above (e.g. 13) or specify your own (e.g. aosp_barbet-trunk_staging-eng): "
         read answer
         used_lunch_menu=1
@@ -786,7 +786,7 @@ function lunch()
 
     if [ -z "$answer" ]
     then
-        selection=aosp_cf_x86_64_phone-trunk_staging-eng
+        selection=sdk_phone64_x86_64-eng
     elif (echo -n $answer | grep -q -e "^[0-9][0-9]*$")
     then
         local choices=($(TARGET_BUILD_APPS= TARGET_PRODUCT= TARGET_RELEASE= TARGET_BUILD_VARIANT= get_build_var COMMON_LUNCH_CHOICES 2>/dev/null))
