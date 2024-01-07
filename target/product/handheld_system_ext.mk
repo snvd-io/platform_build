@@ -25,6 +25,7 @@ PRODUCT_PACKAGES += \
     AccessibilityMenu \
     Launcher3QuickStep \
     mylauncher \
+    Updater \
     Provision \
     Settings \
     SetupWizard \
