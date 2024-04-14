@@ -24,9 +24,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/media_system_ext.mk)
 PRODUCT_PACKAGES += \
     AccessibilityMenu \
     Launcher3QuickStep \
+    mylauncher \
+    Updater \
     Provision \
     Settings \
-    SetupWizard2 \
+    SetupWizard \
     StorageManager \
     SystemUI \
     WallpaperCropper \
