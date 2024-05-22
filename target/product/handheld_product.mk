@@ -33,7 +33,7 @@ PRODUCT_PACKAGES += \
     LatinIME \
     Music \
     OneTimeInitializer \
-    PdfViewer \
+    PdfViewerGOS \
     preinstalled-packages-platform-handheld-product.xml \
     SettingsIntelligence \
     ThemePicker \
