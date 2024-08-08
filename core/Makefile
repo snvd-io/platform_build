@@ -5518,6 +5518,7 @@ INTERNAL_OTATOOLS_MODULES := \
   delta_generator \
   e2fsck \
   e2fsdroid \
+  fastboot \
   fc_sort \
   fec \
   fsck.erofs \
