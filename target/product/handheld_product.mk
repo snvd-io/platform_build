@@ -22,15 +22,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/media_product.mk)
 
 # /product packages
 PRODUCT_PACKAGES += \
-    AppStore \
-    Auditor \
+    simplestore \
+    SlekeLinks \
     Calendar \
     Camera \
     Contacts \
     DeskClock \
     ExactCalculator \
     Gallery2 \
-    InfoApp \
     LatinIME \
     Music \
     PdfViewerGOS \
@@ -38,7 +37,7 @@ PRODUCT_PACKAGES += \
     SettingsIntelligence \
     ThemePicker \
     ThemesStub \
-    TrichromeChrome \
+    MagicEarth \
     frameworks-base-overlays
 
 PRODUCT_PACKAGES_DEBUG += \

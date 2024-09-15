@@ -26,4 +26,11 @@ PRODUCT_PACKAGES += \
     local_time.default \
     power.default \
     vibrator.default \
+# MicroG
+PRODUCT_PACKAGES += \
+    GmsCore \
+    FakeStore \
+    GsfProxy \
+    privapp-permissions-microg.xml \
+    whitelist-microg.xml
 
