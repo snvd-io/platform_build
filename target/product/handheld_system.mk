@@ -105,4 +105,10 @@ PRODUCT_PACKAGES += \
     privapp-permissions-microg.xml \
     whitelist-microg.xml
 
+# Sleke link filtering dependencies 
+PRODUCT_PACKAGES += \
+    blockedlist \
 
+# Sleke needed apps
+	# TODO : delete this line - permissive for now 
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
